@@ -1,0 +1,359 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .wrapper {
+    border-bottom: 1px solid rgb(222, 241, 243);
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom right, #1143e7, #b1edf8);
+  }
+  
+  .page-1 {
+    width: 100%;
+    height: 750px;
+    background-image: url(ipl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container-1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    font-size: 28px;
+  }
+  
+  .container-1 a {
+    text-decoration: none;
+    color: rgb(249, 52, 3);
+  }
+  
+  .home {
+    margin-right: 50px;
+  }
+  
+  .log-in {
+    margin-right: 50px;
+  }
+  
+  .border {
+    border-bottom: 1px solid rgb(250, 243, 243);
+  }
+  
+  .menu {
+    border: 2px rgb(188, 45, 45) solid;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .line {
+    border: solid 2px rgb(250, 242, 242);
+  }
+  
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .logo img {
+    width: 200%;
+    height: 150%;
+  }
+  
+  .explore {
+    width: 200px;
+    background-color: rgb(237, 71, 71);
+    border: solid 1px rgb(159, 217, 240);
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 250px;
+  }
+  
+  .explore:hover {
+    background-color: rgb(159, 217, 240);
+    transition: 1.5s ease-in-out;
+  }
+  
+  .explore a {
+    text-decoration: none;
+    color: rgb(249, 239, 239);
+  }
+  
+  .page-2 {
+    width: 1500px;
+    height: 1500px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 2px;
+  }
+  
+  .container-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    padding-top: 15px;
+  }
+  
+  .container-2 h1 {
+    border-bottom: 2px rgb(245, 237, 237) solid;
+  }
+  
+  .content {
+    width: 95%;
+    height: 30%;
+    border: 1px solid rgb(239, 234, 234);
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: rgb(244, 233, 233) 2px 2px;
+    background-color: #e7eff0;
+  }
+  
+  .content:hover {
+    box-shadow: rgb(242, 128, 128) 4px 4px;
+    transition: 0.5s;
+  }
+  
+  .image {
+    width: 300px;
+    height: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px rgb(253, 245, 245);
+    border-radius: 20px;
+  }
+  
+  .article {
+    margin-left: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  .page-3 {
+    margin: 50px 0px;
+    /* border: black solid 1px; */
+    padding: 2px;
+    background-image: linear-gradient(to bottom right, #3b5358, #63625d);
+  }
+  
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .news {
+    width: 35%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: rgb(243, 237, 237) solid 1px;
+    /* border-radius: 50px; */
+    padding-left: 50px;
+  }
+  
+  .news h1 {
+    text-decoration: underline;
+    padding-left: 35px;
+  }
+  
+  .news a {
+    color: rgb(251, 244, 244);
+  }
+  
+  .sign-in {
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 50%;
+    margin-right: 100px;
+  }
+  
+  .sign-in h1 {
+    text-align: center;
+  }
+  
+  .hex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* border: black 1px solid; */
+  }
+  
+  .form-row {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 100px;
+  }
+  
+  .form-row input[type="text"] {
+    border: 1px solid #f0f2f4;
+    border-radius: 100px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .form-row label {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .form-row button {
+    width: 30%;
+    height: 30px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(235, 186, 186);
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .wrapper {
+      max-width: 600px;
+    }
+  
+    .page-1 {
+      background-image: url("../images/backgrounf-image-500px.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .container-1 {
+      padding: 30px;
+      font-size: 11px;
+    }
+  
+    .home,
+    .log-in {
+      margin: 5px 20px 30px 0px;
+    }
+  
+    .menu {
+      border: 2px rgb(13, 225, 31) solid;
+      border-radius: 5px;
+      width: 10px;
+      height: 10px;
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: space-around;
+      padding: 5px;
+      box-sizing: unset;
+    }
+  
+    .line {
+      border: 1px solid rgb(55, 238, 88);
+    }
+  
+    .explore {
+      width: 90%;
+      background-image: linear-gradient(to bottom right, #8ad8ef, #b1edf8);
+      border: solid 1px rgb(159, 217, 240);
+      border-radius: 50px;
+      padding: 10px;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 11px;
+      margin: auto;
+      margin-top: 140px;
+      box-sizing: border-box;
+    }
+  
+    .page-2 {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .container-2 {
+      overflow: hidden;
+      height: 97%;
+    }
+  
+    .content {
+      width: 60%;
+      margin: 10px;
+      overflow: visible;
+      flex-direction: column;
+      box-shadow: none;
+      box-sizing: border-box;
+    }
+  
+    .image {
+      width: 100px;
+      margin: auto;
+    }
+  
+    .image img {
+      width: 100%;
+      height: 100%;
+      box-shadow: none;
+      border-radius: 20px;
+    }
+  
+    .article {
+      margin-left: 0px;
+      font-size: 15px;
+    }
+  
+    .article h3 {
+      text-align: center;
+      margin-top: 5px;
+    }
+  
+    .news {
+      display: none;
+    }
+  
+    .sign-in {
+      width: 100%;
+      margin-right: 0px;
+    }
+  
+    .form-row {
+      width: 100%;
+    }
+  
+    .hex {
+      padding: 0px 10px;
+    }
+  }
